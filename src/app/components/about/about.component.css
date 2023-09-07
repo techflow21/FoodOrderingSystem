@@ -1,0 +1,6 @@
+.about-nav {
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  z-index: 5;
+}

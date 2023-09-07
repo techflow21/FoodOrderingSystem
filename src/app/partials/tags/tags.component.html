@@ -1,0 +1,11 @@
+<!-- <div *ngIf="tags">
+  <a *ngFor="let tag of tags" routerLink="/tag/{{tag.name}}">
+    {{tag.name}}({{tag.count}})
+  </a>
+</div> -->
+
+<div *ngIf="tags | async as tagsList">
+  <a *ngFor="let tag of tagsList" [routerLink]="['/tag', tag.name]">
+    {{ tag.name }} ({{ tag.count }})
+  </a>
+</div>

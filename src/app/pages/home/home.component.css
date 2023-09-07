@@ -1,0 +1,10 @@
+.heading_container {
+  align-items: center;
+}
+
+.chef_section img {
+  width: 100%;
+  max-width: 300px;
+  max-height: 350px;
+  margin-top: 40px;
+}
